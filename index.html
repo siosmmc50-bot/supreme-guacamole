@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYAN-CLOUD | LAB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="terminal-overlay"></div>
+
+    <main id="main-frame">
+        <section class="login-screen">
+            <p class="status-bar">[ SISTEMA ENCRIPTADO ]</p>
+            <h1>ACCESO A LA BASE DE DATOS</h1>
+            <p>Inicia sesión para revelar archivos de inteligencia.</p>
+            <div class="input-group">
+                <label>ID:</label> <span class="blink">_</span>
+            </div>
+            <button onclick="desbloquear()">CONTINUAR</button>
+        </section>
+
+        <section id="contenido-secreto" style="display: none;">
+            <p class="status-bar">[ CONEXIÓN CIFRADA: JAKE_DONFORT ]</p>
+            
+            <div class="perfil-hacker">
+                <img src="img/jake.jpg" alt="Ghost" class="foto-hacker">
+                
+                <div class="ficha-datos">
+                    <h3>[+] EXPEDIENTE_CONFIDENCIAL: #0212</h3>
+                    <ul>
+                        <li><strong>ALIAS:</strong> Jake / @Nyan-Cloud</li>
+                        <li><strong>VÍNCULO:</strong> Medio hermano de Lilly y Hannah Donfort.</li>
+                        <li><strong>ESTADO:</strong> Prófugo (Buscado por el Gobierno).</li>
+                        <li><strong>ANTECEDENTES:</strong> Testigo clave en el caso de desaparición de Hannah.</li>
+                        <li><strong>HABILIDADES:</strong> Cifrado, recuperación de archivos, rastreo de IP.</li>
+                        <li><strong>RASGOS:</strong> Extremadamente reservado, lógico, protector.</li>
+                        <li><strong>INTERÉS:</strong> Programación, seguridad informática, café negro.</li>
+                    </ul>
+                    <div class="quote-box">
+                        <p>"Sé que puedo confiar en ti. No me falles".</p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="location.reload()" class="btn-exit">CERRAR SESIÓN</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
